@@ -9726,3 +9726,24 @@ img {
   border: 5px solid #000;
   border-radius: 25px;
 }
+
+.ad {  
+  display: grid;  
+  grid-template-columns: 100px 100px 100px;  
+  grid-template-rows: 50px 50px;  
+}
+
+.column2 {
+  float: right;
+  width: 600%;
+  padding: 5px;
+}
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 50%;
+  padding: 50px;
+}
